@@ -6,9 +6,7 @@ public abstract class HomeWork {
 
     protected Scanner _scanner;
 
-    public HomeWork(){
+    public HomeWork() {
         _scanner = new Scanner(System.in);
     }
-
-    public abstract void callAll();
 }

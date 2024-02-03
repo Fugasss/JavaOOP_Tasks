@@ -1,8 +1,9 @@
-import HomeWork.HomeWork1;
+import HomeWork.*;
 
 public class Main {
     public static void main(String[] args) {
-        HomeWork1 hw = new HomeWork1();
-        hw.hard_10();
+        ArrayListTasks t = new ArrayListTasks();
+
+        t.task4();
     }
 }

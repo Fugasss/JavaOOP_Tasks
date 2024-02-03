@@ -242,24 +242,4 @@ public class HomeWork1 extends HomeWork {
             System.out.println(ex.getMessage());
         }
     }
-
-
-    @Override
-    public void callAll() {
-        easy_6();
-        easy_7();
-        easy_8();
-        easy_9();
-        easy_10();
-        medium_6();
-        medium_7();
-        medium_8();
-        medium_9();
-        medium_10();
-        hard_6();
-        hard_7();
-        hard_8();
-        hard_9();
-        hard_10();
-    }
 }
