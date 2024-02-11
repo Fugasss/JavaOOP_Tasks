@@ -2,8 +2,8 @@ import HomeWork.*;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayListTasks t = new ArrayListTasks();
+        HomeWork3 hw = new HomeWork3();
 
-        t.task4();
+        hw.Task7();
     }
 }
