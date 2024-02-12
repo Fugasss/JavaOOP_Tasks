@@ -1,4 +1,6 @@
-package HomeWork;
+package HomeWork.HW2;
+
+import HomeWork.HomeWork;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,6 @@
-package HomeWork;
+package HomeWork.HW1;
+
+import HomeWork.HomeWork;
 
 import java.io.FileNotFoundException;
 import java.io.FileWriter;

@@ -1,4 +1,6 @@
-package HomeWork;
+package HomeWork.HW3;
+
+import HomeWork.HomeWork;
 
 import java.util.Arrays;
 
