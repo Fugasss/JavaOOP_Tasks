@@ -4,7 +4,6 @@ import HomeWork.HomeWork;
 
 import java.util.Arrays;
 import java.util.ArrayList;
-import java.util.stream.Collectors;
 
 public class HomeWork4 extends HomeWork {
     public void Execute() {
@@ -13,7 +12,6 @@ public class HomeWork4 extends HomeWork {
                 PRESS [2] TO LIST USERS
                 PRESS [0] TO EXIT
                                 """;
-
         String addMenu = """
                 PRESS [1] TO ADD STUDENT
                 PRESS [2] TO ADD STAFF
@@ -24,30 +22,33 @@ public class HomeWork4 extends HomeWork {
                             """;
         String inputUserFormat = """
                 Enter user's info (id, login, password, name, surname, gpa/salary):
-                Ex. 1:
-                    1 AAshat bRjk21 Andrey Ashatov 2.5
+                Ex:
+                    1 AAshat bRjk21 Andrey Ashatov 2,5
                                 """;
-
+        String inputSubjectsCoursesFormat = """
+                Enter Subjects/Courses Line By Line and press enter:
+                Ex:
+                    Mathematics
+                    Data Science
+                """;
         ArrayList<User> users = new ArrayList<>();
 
         while (true) {
             System.out.println(menu);
             int firstCommand = _scanner.nextInt();
 
-            if (firstCommand == 0) {
+            if (firstCommand == 0)
                 break;
-            }
 
-            if(firstCommand == 1)
+            if (firstCommand == 1)
                 System.out.println(addMenu);
-            else if(firstCommand == 2)
+            else if (firstCommand == 2)
                 System.out.println(listMenu);
 
             int secondCommand = _scanner.nextInt();
 
-            if (secondCommand == 0) {
+            if (secondCommand == 0)
                 continue;
-            }
 
             if (firstCommand == 1) {
                 System.out.println(inputUserFormat);
@@ -68,8 +69,27 @@ public class HomeWork4 extends HomeWork {
                 else
                     user = new User(id, login, password, name, surname);
 
+                if (secondCommand == 1 || secondCommand == 2) {
+                    System.out.println(inputSubjectsCoursesFormat);
+
+                    String buffer = "";
+                    _scanner.skip("\n");
+                    while (true) {
+                        buffer = _scanner.nextLine();
+
+                        if(buffer.isBlank() || buffer.isEmpty())
+                            break;
+
+                        if (secondCommand == 1)
+                            ((Student) user).addCourse(buffer);
+                        else
+                            ((Staff) user).addSubject(buffer);
+                    }
+                }
+
                 users.add(user);
-            } else if (firstCommand == 2) {
+            }
+            else if (firstCommand == 2) {
                 if (secondCommand == 1) {
                     users.stream().filter(x -> x instanceof Student).map(User::getData).forEach(System.out::println);
                 }
@@ -192,6 +212,18 @@ class Staff extends User {
         subjects[indexOfSubjects++] = subject;
     }
 
+    public void addCourse(String[] subjects) {
+        if (indexOfSubjects + subjects.length >= MaxCountOfSubjects) {
+            System.out.println("Error: The limit on the number of courses has been reached!");
+            return;
+        }
+
+        int len = subjects.length;
+
+        for(int i = 0; i < len; indexOfSubjects++, i++)
+            this.subjects[indexOfSubjects] = subjects[i];
+    }
+
     @Override
     public String getData() {
         String info = super.getData();
@@ -234,6 +266,18 @@ class Student extends User {
             return;
         }
         this.courses[indexOfCourses++] = course;
+    }
+
+    public void addCourse(String[] course) {
+        if (indexOfCourses + course.length >= MaxCountOfCourses) {
+            System.out.println("Error: The limit on the number of courses has been reached!");
+            return;
+        }
+
+        int len = course.length;
+
+        for(int i = 0; i < len; indexOfCourses++, i++)
+            this.courses[indexOfCourses] = course[i];
     }
 
     @Override

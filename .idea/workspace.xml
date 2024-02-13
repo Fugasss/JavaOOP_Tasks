@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7431f51-91da-4168-8ce2-05ca1b5b4e9b" name="Changes" comment="HW3">
-      <change afterPath="$PROJECT_DIR$/src/HomeWork/HW4/HomeWork4.java" afterDir="false" />
+    <list default="true" id="a7431f51-91da-4168-8ce2-05ca1b5b4e9b" name="Changes" comment="HW4 in progress">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork/ArrayListTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/HW2/ArrayListTasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork/HomeWork1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/HW1/HomeWork1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork/HomeWork2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/HW2/HomeWork2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork/HomeWork3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/HW3/HomeWork3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork/HW4/HomeWork4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/HW4/HomeWork4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +77,8 @@
       <workItem from="1706958603826" duration="3583000" />
       <workItem from="1707543188276" duration="1268000" />
       <workItem from="1707629731600" duration="6710000" />
-      <workItem from="1707734757401" duration="7835000" />
+      <workItem from="1707734757401" duration="7861000" />
+      <workItem from="1707815755231" duration="7721000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -108,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707640674048</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HW4 in progress">
+      <option name="closed" value="true" />
+      <created>1707750677417</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707750677417</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="HW3" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW3" />
+    <MESSAGE value="HW4 in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW4 in progress" />
   </component>
 </project>
