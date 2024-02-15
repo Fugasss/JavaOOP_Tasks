@@ -1,11 +1,16 @@
-package HomeWork.HW4;
-
-import HomeWork.HomeWork;
+package ClassWork.CW4;
 
 import java.util.Arrays;
+import java.util.Scanner;
 import java.util.ArrayList;
 
-public class HomeWork4 extends HomeWork {
+public class ClassWork4 {
+    private Scanner _scanner;
+
+    public ClassWork4(){
+        _scanner = new Scanner(System.in);
+    }
+
     public void Execute() {
         String menu = """
                 PRESS [1] ADD USER
@@ -73,7 +78,8 @@ public class HomeWork4 extends HomeWork {
                     System.out.println(inputSubjectsCoursesFormat);
 
                     String buffer = "";
-                    _scanner.skip("\n");
+                    _scanner.nextLine();
+
                     while (true) {
                         buffer = _scanner.nextLine();
 

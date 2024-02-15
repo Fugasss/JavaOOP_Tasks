@@ -2,8 +2,6 @@ package HomeWork.HW2;
 
 import HomeWork.HomeWork;
 
-import java.util.ArrayList;
-
 public class HomeWork2 extends HomeWork {
 
     public void task1() {
