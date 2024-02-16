@@ -1,9 +1,19 @@
-import ClassWork.CW4.ClassWork4;
+import ClassWork.CW4.*;
+import ClassWork.CW3.*;
+import ClassWork.CW2.*;
+
+import HomeWork.HW4.*;
+import HomeWork.HW3.*;
+import HomeWork.HW2.*;
 
 public class Main {
     public static void main(String[] args) {
-        ClassWork4 hw = new ClassWork4();
-
-        hw.Execute();
+        //new HomeWork4().Execute();
+        //new HomeWork3().Task1();
+        //new HomeWork2().task1();
+        
+         new ClassWork4().Execute();
+        //ClassWork3.Execute();
+        //ClassWork2.task1();
     }
 }
