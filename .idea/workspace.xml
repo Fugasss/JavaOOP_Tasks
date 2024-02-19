@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7431f51-91da-4168-8ce2-05ca1b5b4e9b" name="Changes" comment="HW4 in progress">
+      <change afterPath="$PROJECT_DIR$/src/HomeWork/HW5/HomeWork5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork/HW5/Task1/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork/HW5/Task1/KFC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork/HW5/Task1/MCDonalds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork/HW5/Task1/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork/HW5/Task2/Experienced.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork/HW5/Task2/Newbie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork/HW5/Task2/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork/HW5/Task2/Veteran.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork/HW4/HomeWork4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork/HW4/HomeWork4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,10 +56,15 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="HomeWork.HW5.Task2" />
+      <recent name="HomeWork.HW5" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\sources\java\JavaOOP_HomeWork\res" />
     </key>
@@ -78,7 +93,10 @@
       <workItem from="1707543188276" duration="1268000" />
       <workItem from="1707629731600" duration="6710000" />
       <workItem from="1707734757401" duration="7861000" />
-      <workItem from="1707815755231" duration="7721000" />
+      <workItem from="1707815755231" duration="7742000" />
+      <workItem from="1708015094744" duration="679000" />
+      <workItem from="1708158300805" duration="698000" />
+      <workItem from="1708337865046" duration="7990000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -112,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707750677417</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="HW4 in progress">
+      <option name="closed" value="true" />
+      <created>1707824258121</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707824258121</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
