@@ -1,4 +1,4 @@
-import HomeWork.HW5.*;
+import ClassWork.CW5.ClassWork5;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,6 +11,9 @@ public class Main {
         // ClassWork2.task1();
 
         // HomeWork5.Task1();
-        HomeWork5.Task2();
+        // HomeWork5.Task2();
+
+        //ClassWork5.Task1();
+        ClassWork5.Task2();
     }
 }
